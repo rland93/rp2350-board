@@ -511,7 +511,7 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
+      "svg": "../../Desktop/",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -905,6 +905,10 @@
     [
       "c1ff52a5-d378-475d-b87b-d9de02becd68",
       "Power"
+    ],
+    [
+      "8292fc1e-5f5d-433a-bc39-0ac8e2b2b46c",
+      "Breakouts"
     ]
   ],
   "text_variables": {}
