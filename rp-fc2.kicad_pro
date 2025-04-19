@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.01
         }
       },
       "diff_pair_dimensions": [
@@ -472,6 +472,23 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.508,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "RF 50 Ohm Coplanar",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3424,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
@@ -497,8 +514,12 @@
     },
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": ""
+        "netclass": "RF 50 Ohm Coplanar",
+        "pattern": "/IO/RF"
+      },
+      {
+        "netclass": "RF 50 Ohm Coplanar",
+        "pattern": "/IO/ANT*"
       }
     ]
   },
@@ -909,6 +930,10 @@
     [
       "8292fc1e-5f5d-433a-bc39-0ac8e2b2b46c",
       "Breakouts"
+    ],
+    [
+      "0cc1a462-5781-4e21-9438-0fd542290da4",
+      "IO"
     ]
   ],
   "text_variables": {}
