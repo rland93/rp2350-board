@@ -12609,7 +12609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:IDC-SMD_10P-P1.27_X1270WVS-2X05B-6TV01"
+		(property "Footprint" "DigiKey:CONN_3220-10-0100-00_CNC"
 			(at 231.14 111.76 0)
 			(effects
 				(font
